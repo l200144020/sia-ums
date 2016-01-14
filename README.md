@@ -18,4 +18,4 @@ Login
 Dosen
 ![Universitas Muhammadiyah Surakarta](/screenshoots/dosen.png)
 
-##Login untuk melihat menu lain, proses baru 50%
+##Login untuk melihat menu lain, progres saat ini 50%
