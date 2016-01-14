@@ -1,3 +1,10 @@
 # SIA UMS
 Tugas mata kuliah web dinamis untuk membuat website seperti http://sia.ums.ac.id  
-Dibuat dengan menggunakan Yii2 PHP Framework
+Dibuat dengan menggunakan HTML, JavaScript, CSS, PHP (PHP Framework Yii2)
+
+## Instalasi
+* Buat database dan import database sia-ums.sql
+* Sesuaikan username dan password database di /system/config/db.php
+
+## Username dan Password untuk login
+* l200144020
