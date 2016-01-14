@@ -9,4 +9,5 @@ Dibuat dengan menggunakan HTML, JavaScript, CSS, MySQL, PHP (PHP Framework Yii2)
 * Sesuaikan username dan password database di /system/config/db.php
 
 ## Username dan Password untuk login
-* l200144020
+* Username: admin
+* Password: admin
