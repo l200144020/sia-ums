@@ -1,4 +1,4 @@
-![Universitas Muhammadiyah Surakarta](/assets/ums.jpg)
+![Universitas Muhammadiyah Surakarta](http://www.ums.ac.id/images/ums_header.jpg)
 
 # SIA UMS
 Tugas mata kuliah web dinamis untuk membuat website seperti http://sia.ums.ac.id  
