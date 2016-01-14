@@ -1,4 +1,4 @@
-![Universitas Muhammadiyah Surakarta](http://www.ums.ac.id/images/ums_header.jpg)
+![Universitas Muhammadiyah Surakarta](/assets/ums.jpg)
 
 # SIA UMS
 Tugas mata kuliah web dinamis untuk membuat website seperti http://sia.ums.ac.id  
@@ -11,3 +11,11 @@ Dibuat dengan menggunakan HTML, JavaScript, CSS, MySQL, PHP (PHP Framework Yii2)
 ## Username dan Password untuk login
 * Username: admin
 * Password: admin
+
+## Screenshoot
+Login
+![Universitas Muhammadiyah Surakarta](/screenshoots/login.png)
+Dosen
+![Universitas Muhammadiyah Surakarta](/screenshoots/dosen.png)
+
+##Login untuk melihat menu lain, proses baru 50%
