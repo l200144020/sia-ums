@@ -7,12 +7,12 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\DosenCari */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Dosens';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Dosen - ' . Yii::$app->name;;
+$this->params['breadcrumbs'][] = 'Dosen';
 ?>
 <div class="dosen-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Dosen</h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>

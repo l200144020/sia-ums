@@ -6,13 +6,13 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Matakuliah */
 
-$this->title = $model->nama;
-$this->params['breadcrumbs'][] = ['label' => 'Matakuliahs', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Matakuliah #' . $model->nama . ' - ' . Yii::$app->name;
+$this->params['breadcrumbs'][] = ['label' => 'Matakuliah', 'url' => ['index']];
+$this->params['breadcrumbs'][] = 'Matakuliah #' . $model->nama;
 ?>
 <div class="matakuliah-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Matakuliah #<?php echo $model->nama; ?></h1>
 
     <p>
         <?= Html::a('Update', ['update', 'id' => $model->nama], ['class' => 'btn btn-primary']) ?>

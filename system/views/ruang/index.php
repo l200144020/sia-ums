@@ -7,12 +7,12 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\RuangCari */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Ruangs';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Ruang - ' . Yii::$app->name;
+$this->params['breadcrumbs'][] = 'Ruang';
 ?>
 <div class="ruang-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Ruang</h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>

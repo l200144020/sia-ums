@@ -6,17 +6,17 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Dosen */
 
-$this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Dosens', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Dosen #' . $model->id . '- ' . Yii::$app->name;;
+$this->params['breadcrumbs'][] = ['label' => 'Dosen', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $model->id;
 ?>
 <div class="dosen-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Dosen #<?php echo $model->id; ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id], [
+        <?= Html::a('Update', ['update', 'id' => $model->nama], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Delete', ['delete', 'id' => $model->nama], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',

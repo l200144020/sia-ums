@@ -28,7 +28,7 @@ class SiteController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'logout' => ['post'],
+                    'logout' => ['get'],
                 ],
             ],
         ];
@@ -45,17 +45,22 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
+        $this->layout = 'login';
         if (!\Yii::$app->user->isGuest) {
-            return $this->redirect(array('matakuliah/index'));
+            return $this->redirect(array('site/home'));
         }
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->redirect(array('matakuliah/index'));
+            return $this->redirect(array('site/home'));
         }
         return $this->render('index', [
             'model' => $model,
         ]);
+    }
+
+    public function actionHome() {
+        return $this->render('home');
     }
 
     public function actionLogout()

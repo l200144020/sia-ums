@@ -22,12 +22,6 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <style type="text/css">
-    a.menu {
-        color: #fff;
-        text-decoration: none;
-    }
-    </style>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -39,16 +33,6 @@ AppAsset::register($this);
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar navbar-default navbar-fixed-top',
-        ],
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav'],
-        'items' => [
-            ['label' => 'Dosen', 'url' => ['/dosen/index']],
-            ['label' => 'Ruang', 'url' => ['/ruang/index']],
-            ['label' => 'Mahasiswa', 'url' => ['/mahasiswa/index']],
-            ['label' => 'Matakuliah', 'url' => ['/matakuliah/index']],
-            ['label' => 'Logout', 'url' => ['/site/logout']],
         ],
     ]);
     NavBar::end();

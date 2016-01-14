@@ -6,13 +6,13 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Matakuliah */
 
-$this->title = 'Create Matakuliah';
-$this->params['breadcrumbs'][] = ['label' => 'Matakuliahs', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Create Matakuliah - ' . Yii::$app->name;;
+$this->params['breadcrumbs'][] = ['label' => 'Matakuliah', 'url' => ['index']];
+$this->params['breadcrumbs'][] = 'Create Matakuliah';
 ?>
 <div class="matakuliah-create">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Create Matakuliah</h1>
 
     <?= $this->render('_form', [
         'model' => $model,

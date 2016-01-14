@@ -9,9 +9,10 @@ $this->title = 'SIA UMS';
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-offset-3 col-lg-9" style="margin-bottom:20px;">
+                <div><?php echo Html::img('@web/assets/ums.jpg', ['alt'=>Yii::$app->name]); ?></div>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-offset-4 col-lg-9">
                 <?php $form = ActiveForm::begin([
                     'id' => 'login-form',
                     'options' => ['class' => 'form-horizontal'],
